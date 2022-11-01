@@ -1,0 +1,18 @@
+<p>input works!</p>
+
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <p>
+        <label for="min">Min </label>
+        <input type="text" id="min" name="min" formControlName="min">
+    </p>
+
+    <p>
+        <label for="max">Max </label>
+        <input type="text" id="max" name="max" formControlName="max">
+    </p>
+
+    <button>Submit</button>
+
+</form>
